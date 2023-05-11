@@ -5,7 +5,7 @@ from django.urls import path, include
 router = DefaultRouter()
 
 router.register('register', RegistrationViewSet, basename='register-user')
-# router.register('login', LoginViewSet, basename='login-user')
+router.register('login', LoginViewSet, basename='login-user')
 
 
 urlpatterns = [
