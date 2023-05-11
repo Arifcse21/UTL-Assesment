@@ -37,8 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest-framework',
-    'user',
+    'rest_framework',
+    'drf_yasg',
+    'rest_framework_simplejwt',
+    'user.apps.UserConfig',
     'sales',
 ]
 
@@ -87,8 +89,7 @@ DATABASES = {
     }
 }
 
-AUTH_USER_MODEL = 'sales.User'
-SUCCESSFUL_LOGIN_URL = '/'
+AUTH_USER_MODEL = 'user.User'
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
