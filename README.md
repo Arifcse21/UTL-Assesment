@@ -9,11 +9,12 @@ or try on docker
 
 `pytest -v`
 
-now import the sample data to postgresql database that was provided with question. sql or csv data
-
+### Migrate the database
 `python manage.py makemigrations`
 
 `python manage.py migrate`
+
+**now import the sample data to postgresql database that was provided with question. sql or csv data**
 
 ### Run the server
 `python manage.py runserver`
