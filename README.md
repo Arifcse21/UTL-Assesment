@@ -1,9 +1,10 @@
 # Coding Assesment
-`Migrate the database if you have configured the postgresql database`
+Configure the postgresql database on local machine.
 
 or try on docker
 
     `docker run --name postgres -e POSTGRES_HOST_AUTH_METHOD=trust -e POSTGRES_DB=postgres -p 5432:5432 postgres`
+
 ### Unit test and integration test with PyTest
 
 `pytest -v`
