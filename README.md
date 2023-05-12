@@ -9,7 +9,7 @@ or try on docker
 
 `pytest -v`
 
-now import the sample data to postgresql that was provided with question. sql or csv data
+now import the sample data to postgresql database that was provided with question. sql or csv data
 
 `python manage.py makemigrations`
 
@@ -23,8 +23,6 @@ now import the sample data to postgresql that was provided with question. sql or
 `https://127.0.0.1:8000/swagger/`
 
 ### Documentation - Redoc
-
-
 
 `https://127.0.0.1:8000/redoc/`
 
