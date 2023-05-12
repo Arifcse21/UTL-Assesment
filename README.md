@@ -1,4 +1,8 @@
 # Coding Assesment
+### Create, activate the virtual env and install required packages:
+
+`pip install -r requirements.txt`
+
 Configure the postgresql database on local machine.
 
 or try on docker
