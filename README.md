@@ -9,7 +9,7 @@ or try on docker
 
 `pytest -v`
 
-now import the sample data that was provided with question. sql or csv data
+now import the sample data to postgresql that was provided with question. sql or csv data
 
 `python manage.py makemigrations`
 
